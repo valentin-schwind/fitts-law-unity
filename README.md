@@ -62,4 +62,4 @@ This project is open-source and available under the [MIT License](LICENSE.md).
 
 ---
 
-For more details on how to use, customize, and contribute to this project, please refer to the individual files and comments within the project. This README provides just a summary and starting point for using and understanding the Fitts' Law Task for Unity.
+For more details on how to use, customize, and contribute to this project, please refer to the individual files and comments within the project.
