@@ -1,0 +1,4 @@
+Timestamp,SubjectID,Condition,Task,Group,CurrentTargetIndex,TargetName,TrialDuration,LastTargetPosX,LastTargetPosY,CurrentTargetPosX,CurrentTargetPosY,MousePosX,MousePosY,TargetIsHovered,Distance,TargetSize
+638397579646113086,0,0,0,0,1,Target-0-100-20_1,17997957,0,0,-100,0,5,-93,9728,16,35541,True,16,96234,10
+638397579663355092,0,0,0,0,2,Target-0-100-20_2,35249994,-100,0,5,100,0,5,100,6851,-8,177703,True,8,704708,10
+638397579682914101,0,0,0,0,3,Target-0-100-20_3,54809003,100,0,5,-100,0,5,-103,3701,-18,50742,True,19,30387,10
