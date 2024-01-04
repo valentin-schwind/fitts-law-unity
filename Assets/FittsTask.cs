@@ -67,7 +67,7 @@ namespace FittsTask {
         public bool randomizeTargetConditions = true;
         public bool renderCursorOnCanvas = true;
         public bool showAmplitudeTrials = true;
-        public bool audioFeedback = true;
+        public bool audioFeedback = true; 
         public bool mouseOverHighlight = true;
 
         [Header("Colors")]
@@ -135,9 +135,12 @@ namespace FittsTask {
         private List<double> summaryLoggingErrors = new List<double>(); // Final aggregate over those errors
         private List<double> summaryLoggingThroughputs = new List<double>(); // Final aggregate over that throughputs
 
+        AudioSource audioBeep;
+
         // Start is called before the first frame update
         void Start() {
             Application.targetFrameRate = 90;
+            audioBeep = GetComponent<AudioSource>();
 
             InitializeLogging();
             InitializeCanvas();
@@ -343,7 +346,11 @@ namespace FittsTask {
 
 
         void NextTrial() {
+            // Starting the timer
             trialStartTime = System.DateTime.Now.Ticks;
+
+            // beep
+            if(audioFeedback) audioBeep.Play(0);
 
             lastMouseOnCanvasPos = mouseOnCanvasPos;
             lastMouseWorldPos = mouseWorldPos;
