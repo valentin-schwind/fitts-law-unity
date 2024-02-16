@@ -1,4 +1,4 @@
-# Fitts' Law Task for Unity
+# 1D and 2D Fitts' Law Task for Unity
 
 This Unity project is designed to conduct experiments based on Fitts' Law, a predictive model of human movement primarily used in human-computer interaction and ergonomics. This law predicts the time required to rapidly move to a target area, such as in the case of a mouse cursor moving to a button on the screen. The project allows for a variety of settings and customizations to suit different experimental needs.
 
